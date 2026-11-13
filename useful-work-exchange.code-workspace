@@ -1,0 +1,20 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": ["-s", "tests", "-v"],
+    "files.exclude": {"**/__pycache__": true, "**/target": true},
+    "search.exclude": {"**/.state": true, "**/.venv": true}
+  },
+  "extensions": {"recommendations": ["rust-lang.rust-analyzer", "ms-python.python", "tamasfe.even-better-toml"]},
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {"label": "Bootstrap", "type": "shell", "command": "powershell", "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "scripts/bootstrap.ps1"], "problemMatcher": []},
+      {"label": "Test Python", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "unittest", "discover", "-s", "tests", "-v"], "group": "test", "problemMatcher": []},
+      {"label": "Shift preflight", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["scripts/ai/shift.py", "--setup-only"], "problemMatcher": []},
+      {"label": "Start development shift", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["scripts/ai/shift.py", "--batches", "3", "--minutes", "60"], "problemMatcher": []}
+    ]
+  }
+}

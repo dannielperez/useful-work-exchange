@@ -1,0 +1,22 @@
+Copyright (c) 2026 Danniel A. Pérez Vélez
+
+All rights reserved.
+
+This software and its associated documentation files (the "Software") are the
+exclusive property of Danniel A. Pérez Vélez.
+
+This Software is licensed, not sold.
+
+No part of this Software may be used, copied, modified, merged, published,
+distributed, sublicensed, or disclosed without prior written permission from
+Danniel A. Pérez Vélez, except as expressly permitted under a separate written
+license agreement.
+
+Unauthorized use, reproduction, or distribution of this Software is strictly prohibited.
+
+Contributions to this repository are accepted only under the terms of
+CONTRIBUTING.md, which assigns all right, title, and interest in every
+contribution to Danniel A. Pérez Vélez. AI coding agents used in the
+development of this Software act solely as tools of the owner; all rights in
+their output vest in Danniel A. Pérez Vélez, and no authorship or ownership
+is conferred on any AI system or provider.

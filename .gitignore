@@ -24,3 +24,6 @@ __pycache__/
 *.db-*
 *.sqlite
 *.sqlite3
+
+/docs/ai/runlogs/
+/target/

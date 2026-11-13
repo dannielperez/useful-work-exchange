@@ -1,5 +1,7 @@
 # Useful Work Exchange
 
+Open `useful-work-exchange.code-workspace` in VS Code and run the Bootstrap task. Development decisions are in [the architecture](docs/development/ARCHITECTURE.md), ordered tasks in [the roadmap](docs/development/ROADMAP.md), and automation instructions in [the shift guide](docs/ai/SHIFT.md). The Rust backend migration starts at D01. The executable Python pilot remains available below.
+
 An invite-only compute pool for public or explicitly shareable datasets. Customers buy CSV aggregations with work credits. Workers and independent verifiers earn credits for accepted blocks and can spend them on jobs of their own.
 
 ## Try it locally
