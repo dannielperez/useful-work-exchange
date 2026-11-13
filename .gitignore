@@ -1,0 +1,26 @@
+__pycache__/
+.venv/
+.state/
+.env
+*.pyc
+
+# Local configuration and credentials
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Pilot inputs, results, and runtime data
+/contexts/
+/data/
+/datasets/
+/artifacts/
+/receipts/
+/backups/
+*.csv
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
